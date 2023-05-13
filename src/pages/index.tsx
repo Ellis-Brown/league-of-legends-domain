@@ -19,7 +19,6 @@ export default function Home() {
       </Head>
 
       <main className={`h-screen w-full ${isDarkMode ? 'bg-gray-800' : 'bg-gray-200'} transition-colors duration-300`}>
-        <div>
         <MovingText />
         <div className="h-screen bg-gradient-to-r from-amber-400 via-pink-600 to-blue-500 animate-gradient-x w-full flex flex-col items-center justify-center">
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-600 p-3">
@@ -30,7 +29,6 @@ export default function Home() {
             The best three words in a sequence ever! 🤩
           </h2>
           
-          </div>
         </div>
         
       </main>

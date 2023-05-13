@@ -23,8 +23,8 @@
 
 .container {
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 0;
+    left: 0;
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -41,139 +41,160 @@
     font-weight: bold;
     text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
     white-space: nowrap;
-    animation: move 10s linear infinite, flash 1s linear infinite;
+    animation: move 30s linear infinite, flash 1s linear infinite;
   }
   
   @keyframes move {
-    0% {
-      transform: translate(0%, 0%);
-    }
-    2% {
-      transform: translate(40%, 50%);
-    }
-    4% {
-      transform: translate(80%, 100%);
-    }
-    6% {
-      transform: translate(20%, 70%);
-    }
-    8% {
-      transform: translate(60%, 10%);
-    }
-    10% {
-      transform: translate(30%, 90%);
-    }
-    12% {
-      transform: translate(50%, 20%);
-    }
-    14% {
-      transform: translate(90%, 80%);
-    }
-    16% {
-      transform: translate(10%, 30%);
-    }
-    18% {
-      transform: translate(70%, 60%);
-    }
-    20% {
-      transform: translate(0%, 0%);
-    }
-    22% {
-      transform: translate(80%, 20%);
-    }
-    24% {
-      transform: translate(40%, 90%);
-    }
-    26% {
-      transform: translate(70%, 10%);
-    }
-    28% {
-      transform: translate(30%, 60%);
-    }
-    30% {
-      transform: translate(90%, 40%);
-    }
-    32% {
-      transform: translate(20%, 80%);
-    }
-    34% {
-      transform: translate(60%, 30%);
-    }
-    36% {
-      transform: translate(10%, 50%);
-    }
-    38% {
-      transform: translate(50%, 0%);
-    }
-    40% {
-      transform: translate(0%, 100%);
-    }
-    42% {
-      transform: translate(90%, 70%);
-    }
-    44% {
-      transform: translate(30%, 20%);
-    }
-    46% {
-      transform: translate(70%, 80%);
-    }
-    48% {
-      transform: translate(40%, 40%);
-    }
-    50% {
-      transform: translate(100%, 100%);
-    }
-    52% {
-      transform: translate(20%, 10%);
-    }
-    54% {
-      transform: translate(80%, 60%);
-    }
-    56% {
-      transform: translate(10%, 90%);
-    }
-    58% {
-      transform: translate(50%, 30%);
-    }
-    60% {
-      transform: translate(90%, 0%);
-    }
-    62% {
-      transform: translate(30%, 50%);
-    }
-    64% {
-      transform: translate(70%, 20%);
-    }
-    66% {
-      transform: translate(0%, 70%);
-    }
-    68% {
-      transform: translate(60%, 40%);
-    }
-    70% {
-      transform: translate(100%, 0%);
-    }
-    72% {
-      transform: translate(40%, 80%);
-    }
-    74% {
-      transform: translate(80%, 30%);
-    }
-    76% {
-      transform: translate(20%, 0%);
-    }
-    78% {
-      transform: translate(50%, 50%);
-    }
-    80% {
-      transform: translate(90%, 90%);
-    }
-    82% {
-      transform: translate(30%, 40%);
-    }
-    95% {
-        transform: translate(0%, 0%);
-      }
+  0% {
+    transform: translate(5vw, 5vh);
+  }
+  2% {
+    transform: translate(30vw, 70vh)
+  }
+  4% {
+    transform: translate(80vw, 100vh);
+  }
+  6% {
+    transform: translate(20vw, 70vh);
+  }
+  8% {
+    transform: translate(60vw, 10vh);
+  }
+  10% {
+    transform: translate(30vw, 90vh);
+  }
+  12% {
+    transform: translate(50vw, 20vh);
+  }
+  14% {
+    transform: translate(90vw, 80vh);
+  }
+  16% {
+    transform: translate(10vw, 30vh);
+  }
+  18% {
+    transform: translate(70vw, 60vh);
+  }
+  20% {
+    transform: translate(0vw, 0vh);
+  }
+  22% {
+    transform: translate(80vw, 20vh);
+  }
+  24% {
+    transform: translate(40vw, 90vh);
+  }
+  26% {
+    transform: translate(70vw, 10vh);
+  }
+  28% {
+    transform: translate(30vw, 60vh);
+  }
+  30% {
+    transform: translate(90vw, 40vh);
+  }
+  32% {
+    transform: translate(20vw, 80vh);
+  }
+  34% {
+    transform: translate(60vw, 30vh);
+  }
+  36% {
+    transform: translate(10vw, 50vh);
+  }
+  38% {
+    transform: translate(50vw, 0vh);
+  }
+  40% {
+    transform: translate(0vw, 100vh);
+  }
+  42% {
+    transform: translate(90vw, 70vh);
+  }
+  44% {
+    transform: translate(30vw, 20vh);
+  }
+  46% {
+    transform: translate(70vw, 80vh);
+  }
+  48% {
+    transform: translate(40vw, 40vh);
+  }
+  50% {
+    transform: translate(100vw, 100vh);
+  }
+  52% {
+    transform: translate(20vw, 10vh);
+  }
+  54% {
+    transform: translate(80vw, 60vh);
+  }
+  56% {
+    transform: translate(10vw, 90vh);
+  }
+  58% {
+    transform: translate(50vw, 30vh);
+  }
+  60% {
+    transform: translate(90vw, 0vh);
+  }
+  62% {
+    transform: translate(30vw, 50vh);
+  }
+  64% {
+    transform: translate(70vw, 20vh);
+  }
+  66% {
+    transform: translate(0vw, 70vh);
+  }
+  68% {
+    transform: translate(60vw, 40vh);
+  }
+  70% {
+    transform: translate(100vw, 0vh);
+  }
+  72% {
+    transform: translate(40vw, 80vh);
+  }
+  74% {
+    transform: translate(80vw, 30vh);
+  }
+  76% {
+    transform: translate(20vw, 0vh);
+  }
+  78% {
+    transform: translate(80vw, 100vh);
+  }
+  80% {
+    transform: translate(20vw, 70vh);
+  }
+  82% {
+    transform: translate(60vw, 10vh);
+  }
+  84% {
+    transform: translate(30vw, 90vh);
+  }
+  86% {
+    transform: translate(50vw, 20vh);
+  }
+  88% {
+    transform: translate(90vw, 80vh);
+  }
+  90% {
+    transform: translate(10vw, 30vh);
+  }
+  92% {
+    transform: translate(70vw, 60vh);
+  }
+  94% {
+    transform: translate(0vw, 0vh);
+  }
+  96% {
+    transform: translate(80vw, 20vh);
+  }
+  98% {
+    transform: translate(40vw, 90vh);
+  }
     }
   
   
